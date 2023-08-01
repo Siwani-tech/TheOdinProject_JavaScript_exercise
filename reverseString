@@ -1,0 +1,13 @@
+function reverseString(str){
+  
+  let splitedstr=str.split("");
+  console.log(splitedstr)
+  
+  return splitedstr.reverse().join("");
+}
+
+
+
+
+
+console.log(reverseString('hello there'))
