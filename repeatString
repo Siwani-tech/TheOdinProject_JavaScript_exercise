@@ -1,0 +1,15 @@
+function repeatString(str, num){
+  
+  
+  let repeatedstr="";
+  
+ for(let i=1;i<=num;i++){
+   repeatedstr+=str;
+   
+ }
+ return repeatedstr;
+  
+}
+
+
+console.log(repeatString('hey', 3)) // returns 'heyheyhey'
