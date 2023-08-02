@@ -1,0 +1,31 @@
+
+function add(num1, num2){
+  
+  return num1+num2;
+  
+}
+function sub(num1,num2){
+  return num1-num2
+}
+function mul(num1,num2){
+  return num1 *num2;
+}
+function pow(num1, num2){
+  return Math.pow(num1,num2);
+  
+}
+function sum(num){
+  return num.reduce((acum,sum)=>sum+acum,0);
+}
+
+function factorial(num){
+  let fact=1;
+  
+  if(num===0){
+    return 1;
+  }
+ for(let i=num;i>=2;i--){
+     fact=fact*i;
+ }
+  return fact;
+}
