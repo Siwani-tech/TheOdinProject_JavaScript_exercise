@@ -1,0 +1,14 @@
+function palindromes(str){
+  
+  let splitedStr=str.split("");
+  
+  
+  let palinStr=splitedStr.reverse().join("");
+  
+  if(str===palinStr){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
