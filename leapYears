@@ -1,0 +1,17 @@
+
+function leapYears(num){
+  
+  let isleap=false;
+  
+  if(num%4==0 && num%400==0){
+    return isleap=true;
+  }
+  else{
+    return isleap=false;
+  }
+}
+
+
+
+console.log(leapYears(2000)); // is a leap year: returns true
+console.log(leapYears(1985));
